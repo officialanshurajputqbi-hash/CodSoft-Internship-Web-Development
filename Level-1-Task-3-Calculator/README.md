@@ -21,7 +21,7 @@ The calculator performs basic arithmetic operations with a clean and modern inte
 
 🔗 **Click Here to View the Project**
 
-**https://officialanshurajputqbi-hash.github.io/CodSoft-Internship-Web-Development/Level1-Task-3-Calculator/**
+**https://officialanshurajputqbi-hash.github.io/CodSoft-Internship-Web-Development/Level-1-Task-3-Calculator/**
 
 ---
 
