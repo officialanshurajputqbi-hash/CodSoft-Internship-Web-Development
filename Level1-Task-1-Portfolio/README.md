@@ -1,4 +1,16 @@
 # 🌐 Anshu Kumar — Personal Portfolio
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=Anshu+Kumar+%7C+Portfolio;BCA+Cloud+Computing+%26+Cyber+Security;Web+Developer+%7C+Hackathon+Leader;Open+to+Summer+Internship+%F0%9F%9A%80" alt="Typing SVG" />
+<br/><br/>
+ 
+[![Portfolio Live](https://img.shields.io/badge/🌐_Portfolio-Live-7c3aed?style=for-the-badge)](https://officialanshurajputqbi-hash.github.io/CODSOFT-Internship/Level1-Task1-Portfolio/)
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
+[![CSS3](https://img.shields.io/badge/CSS3-264de4?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+[![PWA](https://img.shields.io/badge/PWA-5A0FC8?style=for-the-badge&logo=pwa&logoColor=white)](https://web.dev/progressive-web-apps/)
+[![GitHub Pages](https://img.shields.io/badge/GitHub_Pages-181717?style=for-the-badge&logo=github&logoColor=white)](https://pages.github.com/)
+ 
+<br/>
 **CODSOFT Web Development Internship | Level 1 | Task 1**
 ## 🧑‍💻 About
 A fully responsive personal portfolio website built **from scratch** using pure HTML, CSS, and JavaScript — no frameworks, no templates, no libraries. Developed as Task 1 of the CODSOFT Web Development Internship.
