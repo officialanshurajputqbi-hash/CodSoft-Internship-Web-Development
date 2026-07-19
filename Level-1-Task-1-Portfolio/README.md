@@ -3,7 +3,7 @@
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=700&lines=Anshu+Kumar+%7C+Portfolio;BCA+Cloud+Computing+%26+Cyber+Security;Web+Developer+%7C+Hackathon+Leader;Open+to+Summer+Internship+%F0%9F%9A%80" alt="Typing SVG" />
 <br/><br/>
  
-[![Portfolio Live](https://img.shields.io/badge/🌐_Portfolio-Live-7c3aed?style=for-the-badge)](https://officialanshurajputqbi-hash.github.io/CodSoft-Internship-Web-Development/Level1-Task-1-Portfolio/)
+[![Portfolio Live](https://img.shields.io/badge/🌐_Portfolio-Live-7c3aed?style=for-the-badge)](https://officialanshurajputqbi-hash.github.io/CodSoft-Internship-Web-Development/Level-1-Task-1-Portfolio/)
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-264de4?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/en-US/docs/Web/CSS)
 [![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
