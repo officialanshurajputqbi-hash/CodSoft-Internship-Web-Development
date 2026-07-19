@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, viewport-fit=cover">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#1c1c1f">
+<title>Calculator</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="calc">
+  <div class="brand"><span>Anshu Kumar</span></div>
+
+  <div class="display-panel">
+    <div class="display">
+      <div class="expression" id="expression">&nbsp;</div>
+      <div class="result" id="result">0</div>
+    </div>
+  </div>
+
+  <div class="keys">
+    <button class="func" data-action="clear">C</button>
+    <button class="func" data-action="negate">±</button>
+    <button class="func" data-action="percent">%</button>
+    <button class="op" data-action="divide">÷</button>
+
+    <button data-action="digit" data-value="7">7</button>
+    <button data-action="digit" data-value="8">8</button>
+    <button data-action="digit" data-value="9">9</button>
+    <button class="op" data-action="multiply">×</button>
+
+    <button data-action="digit" data-value="4">4</button>
+    <button data-action="digit" data-value="5">5</button>
+    <button data-action="digit" data-value="6">6</button>
+    <button class="op" data-action="subtract">−</button>
+
+    <button data-action="digit" data-value="1">1</button>
+    <button data-action="digit" data-value="2">2</button>
+    <button data-action="digit" data-value="3">3</button>
+    <button class="op" data-action="add">+</button>
+
+    <button class="zero" data-action="digit" data-value="0">0</button>
+    <button data-action="decimal">.</button>
+    <button class="equals op" data-action="equals">=</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
