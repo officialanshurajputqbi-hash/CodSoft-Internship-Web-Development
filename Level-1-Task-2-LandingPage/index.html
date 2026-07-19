@@ -1,0 +1,739 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Perimeter - Cybersecurity Learning Platform</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<nav class="navbar">
+  <div class="container nav-inner">
+    <div class="logo">Perimeter</div>
+    <ul class="nav-links">
+      <li><a href="#steps">How it works</a></li>
+      <li><a href="#hackmap">Live Map</a></li>
+      <li><a href="#labs">Labs</a></li>
+      <li><a href="#tasks">Tasks</a></li>
+      <li><a href="#pricing">Pricing</a></li>
+      <li><a href="#testimonials">Reviews</a></li>
+    </ul>
+    <a href="#pricing" class="btn btn-primary">Get Started</a>
+  </div>
+</nav>
+
+<section class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <div class="hero-badge">
+        <span class="badge-dot"></span>
+        <span>Live Sandbox Environment</span>
+      </div>
+      <h1 class="hero-title-hack">Master Cybersecurity<br>Through <span class="gradient-text">Real-World Hacking</span></h1>
+      <p class="hero-sub">Practice ethical hacking, cloud security, and network defense in a safe, isolated sandbox. 140+ labs. 20 hacking themes. Built for CodSoft project submissions.</p>
+      <div class="hero-btns">
+        <a href="#pricing" class="btn btn-hack">
+          <span class="btn-icon">▶</span> Start Free Lab
+        </a>
+        <a href="#labs" class="btn btn-hack-outline">
+          <span class="btn-icon">◈</span> Explore Labs
+        </a>
+      </div>
+      <div class="hero-stats-mini">
+        <div class="hstat">
+          <span class="hstat-num">140+</span>
+          <span class="hstat-label">Labs</span>
+        </div>
+        <div class="hstat-divider"></div>
+        <div class="hstat">
+          <span class="hstat-num">20</span>
+          <span class="hstat-label">Themes</span>
+        </div>
+        <div class="hstat-divider"></div>
+        <div class="hstat">
+          <span class="hstat-num">12K+</span>
+          <span class="hstat-label">Students</span>
+        </div>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="code-window">
+        <div class="code-header">
+          <div class="code-dots">
+            <span></span><span></span><span></span>
+          </div>
+          <span class="code-filename">perimeter_lab.py</span>
+        </div>
+        <div class="code-body">
+          <div class="code-line"><span class="ln">1</span><span class="code-kw">def</span> <span class="code-func">scan_target</span>(<span class="code-param">host</span>):</div>
+          <div class="code-line"><span class="ln">2</span>    <span class="code-kw">print</span>(<span class="code-str">"[*] Initiating reconnaissance..."</span>)</div>
+          <div class="code-line"><span class="ln">3</span>    ports = [<span class="code-num">22</span>, <span class="code-num">80</span>, <span class="code-num">443</span>, <span class="code-num">3306</span>]</div>
+          <div class="code-line"><span class="ln">4</span>    <span class="code-kw">for</span> port <span class="code-kw">in</span> ports:</div>
+          <div class="code-line"><span class="ln">5</span>        <span class="code-kw">if</span> check_open(port):</div>
+          <div class="code-line"><span class="ln">6</span>            <span class="code-kw">print</span>(<span class="code-str">f"[+] Port {port} is OPEN"</span>)</div>
+          <div class="code-line"><span class="ln">7</span>    <span class="code-kw">return</span> <span class="code-str">"Vulnerability scan complete"</span></div>
+          <div class="code-line"><span class="ln">8</span></div>
+          <div class="code-line"><span class="ln">9</span><span class="code-comment"># Welcome to Perimeter Labs</span></div>
+          <div class="code-line"><span class="ln">10</span><span class="code-kw">print</span>(<span class="code-str">">>> Ready to hack safely"</span>)</div>
+          <div class="code-cursor"></div>
+        </div>
+      </div>
+      <div class="floating-card card-1">
+        <div class="fc-icon">🛡️</div>
+        <div class="fc-text">Firewall<br><strong>ACTIVE</strong></div>
+      </div>
+      <div class="floating-card card-2">
+        <div class="fc-icon">🔒</div>
+        <div class="fc-text">Encryption<br><strong>AES-256</strong></div>
+      </div>
+      <div class="floating-card card-3">
+        <div class="fc-icon">🔍</div>
+        <div class="fc-text">Threat<br><strong>DETECTED</strong></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<div class="stats" style="background: #0d1117; border-bottom: 1px solid #22303f;">
+  <div class="container stats-row">
+    <div>
+      <h2 style="color: #00ff88; font-family: 'Courier New', monospace;">140+</h2>
+      <p style="color: #8b949e; font-family: 'Courier New', monospace;">Hands-on Labs</p>
+    </div>
+    <div>
+      <h2 style="color: #00ff88; font-family: 'Courier New', monospace;">12,000+</h2>
+      <p style="color: #8b949e; font-family: 'Courier New', monospace;">Students Learning</p>
+    </div>
+    <div>
+      <h2 style="color: #00ff88; font-family: 'Courier New', monospace;">4.8/5</h2>
+      <p style="color: #8b949e; font-family: 'Courier New', monospace;">Average Rating</p>
+    </div>
+    <div>
+      <h2 style="color: #00ff88; font-family: 'Courier New', monospace;">100%</h2>
+      <p style="color: #8b949e; font-family: 'Courier New', monospace;">Safe Sandbox</p>
+    </div>
+  </div>
+</div>
+
+<section id="steps" style="background-color: #0d1117;">
+  <div class="container">
+    <div class="section-title">
+      <h2>How Attacks Work (And How You'll Learn Them)</h2>
+      <p>Every lab covers one stage of a real cyber attack lifecycle.</p>
+    </div>
+    <div class="steps">
+      <div class="step-card" style="background: #111827; border-color: #22303f;">
+        <div class="step-number" style="background-color: #00ff88; color: #0a0e17;">1</div>
+        <h3 style="color: #c9d1d9; font-family: 'Courier New', monospace;">Recon</h3>
+        <p style="color: #8b949e; font-family: 'Courier New', monospace;">Find open ports, exposed services, and weak points in a target system.</p>
+      </div>
+      <div class="step-card" style="background: #111827; border-color: #22303f;">
+        <div class="step-number" style="background-color: #00ff88; color: #0a0e17;">2</div>
+        <h3 style="color: #c9d1d9; font-family: 'Courier New', monospace;">Exploit</h3>
+        <p style="color: #8b949e; font-family: 'Courier New', monospace;">Use a vulnerability to gain actual access to the system.</p>
+      </div>
+      <div class="step-card" style="background: #111827; border-color: #22303f;">
+        <div class="step-number" style="background-color: #00ff88; color: #0a0e17;">3</div>
+        <h3 style="color: #c9d1d9; font-family: 'Courier New', monospace;">Persist</h3>
+        <p style="color: #8b949e; font-family: 'Courier New', monospace;">Learn how attackers maintain access after breaking in.</p>
+      </div>
+      <div class="step-card" style="background: #111827; border-color: #22303f;">
+        <div class="step-number" style="background-color: #00ff88; color: #0a0e17;">4</div>
+        <h3 style="color: #c9d1d9; font-family: 'Courier New', monospace;">Detect & Respond</h3>
+        <p style="color: #8b949e; font-family: 'Courier New', monospace;">Switch sides - find the intrusion in the logs and stop it.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="hackmap" class="hackmap-section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Live Threat Intelligence Dashboard</h2>
+      <p>Real-time global attack simulation. Watch live hacking scenarios unfold across our sandbox network.</p>
+    </div>
+    <div class="map-box">
+      <svg viewBox="0 0 800 380">
+        <!-- Grid lines for cyber feel -->
+        <defs>
+          <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+            <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1c2b3a" stroke-width="0.5"/>
+          </pattern>
+        </defs>
+        <rect width="800" height="380" fill="url(#grid)"/>
+
+        <!-- Continents with glow effect -->
+        <path class="map-land" d="M60 120 L140 100 L200 130 L180 170 L120 190 L70 160 Z"/>
+        <path class="map-land" d="M180 190 L230 210 L220 260 L160 270 L150 220 Z"/>
+        <path class="map-land" d="M320 90 L420 80 L460 110 L440 150 L360 160 L310 130 Z"/>
+        <path class="map-land" d="M400 170 L440 190 L430 230 L390 220 Z"/>
+        <path class="map-land" d="M500 100 L620 90 L660 130 L600 160 L520 150 Z"/>
+        <path class="map-land" d="M600 200 L680 210 L670 250 L610 240 Z"/>
+        <path class="map-land" d="M660 260 L720 270 L710 300 L650 290 Z"/>
+
+        <!-- Animated attack lines with different colors per attack type -->
+        <line class="attack-line ssh" x1="150" y1="150" x2="400" y2="120"/>
+        <line class="attack-line sql" x1="580" y1="130" x2="400" y2="120"/>
+        <line class="attack-line ddos" x1="650" y1="230" x2="400" y2="120"/>
+        <line class="attack-line xss" x1="200" y1="230" x2="400" y2="120"/>
+        <line class="attack-line malware" x1="350" y1="100" x2="400" y2="120"/>
+        <line class="attack-line ransomware" x1="700" y1="280" x2="400" y2="120"/>
+        <line class="attack-line phishing" x1="120" y1="200" x2="400" y2="120"/>
+        <line class="attack-line mitm" x1="500" y1="140" x2="400" y2="120"/>
+
+        <!-- Attack dots with country labels -->
+        <circle class="attack-dot ssh" cx="150" cy="150" r="5"/>
+        <text x="150" y="140" fill="#ff6b6b" font-size="9" text-anchor="middle" font-family="monospace">USA</text>
+
+        <circle class="attack-dot sql d2" cx="580" cy="130" r="5"/>
+        <text x="580" y="120" fill="#4ecdc4" font-size="9" text-anchor="middle" font-family="monospace">RUS</text>
+
+        <circle class="attack-dot ddos d3" cx="650" cy="230" r="5"/>
+        <text x="650" y="220" fill="#ffe66d" font-size="9" text-anchor="middle" font-family="monospace">CHN</text>
+
+        <circle class="attack-dot xss d4" cx="200" cy="230" r="5"/>
+        <text x="200" y="220" fill="#a8e6cf" font-size="9" text-anchor="middle" font-family="monospace">BRA</text>
+
+        <circle class="attack-dot malware d5" cx="350" cy="100" r="5"/>
+        <text x="350" y="90" fill="#ff8b94" font-size="9" text-anchor="middle" font-family="monospace">GBR</text>
+
+        <circle class="attack-dot ransomware" cx="700" cy="280" r="5"/>
+        <text x="700" y="270" fill="#c7ceea" font-size="9" text-anchor="middle" font-family="monospace">AUS</text>
+
+        <circle class="attack-dot phishing" cx="120" cy="200" r="5"/>
+        <text x="120" y="190" fill="#ffd3b6" font-size="9" text-anchor="middle" font-family="monospace">CAN</text>
+
+        <circle class="attack-dot mitm" cx="500" cy="140" r="5"/>
+        <text x="500" y="130" fill="#dcedc1" font-size="9" text-anchor="middle" font-family="monospace">DEU</text>
+
+        <!-- Target server (center) -->
+        <circle class="attack-dot target" cx="400" cy="120" r="8"/>
+        <text x="400" y="145" fill="#00ff88" font-size="10" text-anchor="middle" font-family="monospace" font-weight="bold">PERIMETER HQ</text>
+      </svg>
+
+      <!-- Live stats overlay -->
+      <div class="map-stats">
+        <div class="stat-item">
+          <span class="stat-label">ACTIVE ATTACKS</span>
+          <span class="stat-value" id="activeAttacks">8</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">BLOCKED</span>
+          <span class="stat-value green" id="blockedCount">1,247</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">THREAT LEVEL</span>
+          <span class="stat-value red" id="threatLevel">HIGH</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-label">UPTIME</span>
+          <span class="stat-value" id="uptime">99.97%</span>
+        </div>
+      </div>
+
+      <div class="attack-feed">
+        <p><span class="tag ssh">[SSH]</span> 103.44.12.9 (USA) brute force attempt → <span class="blocked">BLOCKED</span></p>
+        <p><span class="tag sql">[SQLi]</span> 45.132.88.201 (RUS) injection payload → <span class="blocked">BLOCKED</span></p>
+        <p><span class="tag ddos">[DDoS]</span> 198.51.100.23 (CHN) SYN flood detected → <span class="mitigated">MITIGATED</span></p>
+        <p><span class="tag xss">[XSS]</span> 172.16.99.4 (BRA) script injection → <span class="blocked">BLOCKED</span></p>
+        <p><span class="tag malware">[MALWARE]</span> 91.203.164.7 (GBR) trojan signature → <span class="quarantined">QUARANTINED</span></p>
+        <p><span class="tag ransomware">[RANSOM]</span> 203.0.113.45 (AUS) encryption attempt → <span class="blocked">BLOCKED</span></p>
+        <p><span class="tag phishing">[PHISH]</span> 198.51.100.77 (CAN) credential harvest → <span class="blocked">BLOCKED</span></p>
+        <p><span class="tag mitm">[MITM]</span> 192.0.2.156 (DEU) ARP spoofing → <span class="detected">DETECTED</span></p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="demo-section">
+  <div class="container">
+    <div class="section-title">
+      <h2>Live Hacking Simulation Demos</h2>
+      <p>Watch real-time hacking scenarios unfold in our sandbox terminals. Each demo shows attack → detection → defense.</p>
+    </div>
+    <div class="demo-grid">
+
+      <!-- Demo 1: Brute Force Attack -->
+      <div class="demo-card">
+        <div class="demo-header">
+          <div class="demo-dots">
+            <div class="demo-dot red"></div>
+            <div class="demo-dot yellow"></div>
+            <div class="demo-dot green"></div>
+          </div>
+          <span class="demo-title">brute_force_simulation.py — Perimeter Terminal</span>
+        </div>
+        <div class="demo-body">
+          <p><span class="cmd">$</span> python3 brute_force.py --target 192.168.1.100 --wordlist passwords.txt</p>
+          <p><span class="output">[*] Starting brute force attack on SSH port 22...</span></p>
+          <p><span class="output">[*] Loaded 10,000 passwords from wordlist</span></p>
+          <p><span class="output">[-] Attempt 1: admin:password123 — FAILED</span></p>
+          <p><span class="output">[-] Attempt 2: admin:qwerty — FAILED</span></p>
+          <p><span class="output">[-] Attempt 3: admin:123456 — FAILED</span></p>
+          <p><span class="warning">[!] Rate limit detected — 3 failed attempts</span></p>
+          <p><span class="highlight">[+] ALERT: Intrusion Detection System triggered!</span></p>
+          <p><span class="success">[+] IP 192.168.1.50 blocked by firewall rule #4421</span></p>
+          <p><span class="success">[+] Incident report auto-generated and sent to SOC team</span></p>
+          <div class="theme-badges">
+            <span class="theme-badge red">SSH Brute Force</span>
+            <span class="theme-badge green">IDS Detection</span>
+            <span class="theme-badge cyan">Auto-Block</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Demo 2: SQL Injection -->
+      <div class="demo-card">
+        <div class="demo-header">
+          <div class="demo-dots">
+            <div class="demo-dot red"></div>
+            <div class="demo-dot yellow"></div>
+            <div class="demo-dot green"></div>
+          </div>
+          <span class="demo-title">sql_injection_lab.sql — Perimeter Terminal</span>
+        </div>
+        <div class="demo-body">
+          <p><span class="cmd">$</span> curl -X POST "http://target.com/login" -d "user=admin' OR '1'='1'--&pass=anything"</p>
+          <p><span class="output">[*] Testing SQL injection payload...</span></p>
+          <p><span class="output">[*] Response time: 245ms</span></p>
+          <p><span class="highlight">[+] VULNERABLE: Boolean-based blind SQLi confirmed!</span></p>
+          <p><span class="output">[*] Extracting database version...</span></p>
+          <p><span class="success">[+] MySQL 8.0.32 detected</span></p>
+          <p><span class="output">[*] Dumping table: users</span></p>
+          <p><span class="warning">[!] WAF Rule triggered — Request blocked</span></p>
+          <p><span class="success">[+] WAF logged attack signature: SQLi-UNION-001</span></p>
+          <p><span class="success">[+] Admin notified. Patch recommendation issued.</span></p>
+          <div class="theme-badges">
+            <span class="theme-badge cyan">SQL Injection</span>
+            <span class="theme-badge yellow">WAF Block</span>
+            <span class="theme-badge pink">Data Exfiltration</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Demo 3: DDoS Attack -->
+      <div class="demo-card">
+        <div class="demo-header">
+          <div class="demo-dots">
+            <div class="demo-dot red"></div>
+            <div class="demo-dot yellow"></div>
+            <div class="demo-dot green"></div>
+          </div>
+          <span class="demo-title">ddos_mitigation.py — Perimeter Terminal</span>
+        </div>
+        <div class="demo-body">
+          <p><span class="cmd">$</span> python3 ddos_sim.py --target perimeter-lab.com --threads 1000</p>
+          <p><span class="output">[*] Launching SYN flood attack...</span></p>
+          <p><span class="output">[*] Packets sent: 50,000 | Rate: 10,000 pps</span></p>
+          <p><span class="warning">[!] Traffic spike detected — 500% above baseline</span></p>
+          <p><span class="highlight">[+] DDoS Protection activated!</span></p>
+          <p><span class="success">[+] Rate limiting applied: 100 req/sec per IP</span></p>
+          <p><span class="success">[+] Botnet IPs blackholed: 247 addresses</span></p>
+          <p><span class="output">[*] Server response time: 45ms (normal)</span></p>
+          <p><span class="success">[+] Service availability: 99.9% maintained</span></p>
+          <p><span class="success">[+] Attack mitigated in 3.2 seconds</span></p>
+          <div class="theme-badges">
+            <span class="theme-badge yellow">SYN Flood</span>
+            <span class="theme-badge green">Rate Limiting</span>
+            <span class="theme-badge purple">Botnet Blackhole</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Demo 4: Ransomware Simulation -->
+      <div class="demo-card">
+        <div class="demo-header">
+          <div class="demo-dots">
+            <div class="demo-dot red"></div>
+            <div class="demo-dot yellow"></div>
+            <div class="demo-dot green"></div>
+          </div>
+          <span class="demo-title">ransomware_defense.sh — Perimeter Terminal</span>
+        </div>
+        <div class="demo-body">
+          <p><span class="cmd">$</span> ./ransomware_sim.sh --encrypt /home/user/documents</p>
+          <p><span class="output">[*] Simulating ransomware payload execution...</span></p>
+          <p><span class="warning">[!] Suspicious file modification detected: *.docx → *.encrypted</span></p>
+          <p><span class="warning">[!] High entropy write pattern identified</span></p>
+          <p><span class="highlight">[+] EDR Alert: Ransomware behavior signature match!</span></p>
+          <p><span class="success">[+] Process isolated in sandbox container</span></p>
+          <p><span class="success">[+] Filesystem snapshot restored from backup</span></p>
+          <p><span class="success">[+] Encryption key intercepted and stored</span></p>
+          <p><span class="success">[+] Zero files lost. Zero ransom paid.</span></p>
+          <p><span class="output">[*] Forensic dump saved for analysis</span></p>
+          <div class="theme-badges">
+            <span class="theme-badge purple">Ransomware</span>
+            <span class="theme-badge green">EDR Response</span>
+            <span class="theme-badge red">File Recovery</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Demo 5: Man-in-the-Middle -->
+      <div class="demo-card">
+        <div class="demo-header">
+          <div class="demo-dots">
+            <div class="demo-dot red"></div>
+            <div class="demo-dot yellow"></div>
+            <div class="demo-dot green"></div>
+          </div>
+          <span class="demo-title">mitm_detection.py — Perimeter Terminal</span>
+        </div>
+        <div class="demo-body">
+          <p><span class="cmd">$</span> sudo python3 arp_spoof.py --target 192.168.1.10 --gateway 192.168.1.1</p>
+          <p><span class="output">[*] Enabling IP forwarding...</span></p>
+          <p><span class="output">[*] Sending spoofed ARP replies...</span></p>
+          <p><span class="output">[*] Traffic interception active — 45 packets captured</span></p>
+          <p><span class="warning">[!] ARP table inconsistency detected on switch port 4</span></p>
+          <p><span class="highlight">[+] Network IDS Alert: Possible ARP poisoning!</span></p>
+          <p><span class="success">[+] Dynamic ARP Inspection (DAI) enabled</span></p>
+          <p><span class="success">[+] Attacker MAC blacklisted: aa:bb:cc:dd:ee:ff</span></p>
+          <p><span class="success">[+] Port security violation — Port 4 shut down</span></p>
+          <p><span class="success">[+] TLS certificate pinning validated for all sessions</span></p>
+          <div class="theme-badges">
+            <span class="theme-badge lime">ARP Spoofing</span>
+            <span class="theme-badge cyan">DAI Protection</span>
+            <span class="theme-badge orange">Port Security</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Demo 6: Phishing Simulation -->
+      <div class="demo-card">
+        <div class="demo-header">
+          <div class="demo-dots">
+            <div class="demo-dot red"></div>
+            <div class="demo-dot yellow"></div>
+            <div class="demo-dot green"></div>
+          </div>
+          <span class="demo-title">phishing_simulator.html — Perimeter Terminal</span>
+        </div>
+        <div class="demo-body">
+          <p><span class="cmd">$</span> python3 phishing_campaign.py --template "bank_alert" --target-list employees.csv</p>
+          <p><span class="output">[*] Loading phishing template: Bank Security Alert</span></p>
+          <p><span class="output">[*] Sending emails to 500 targets...</span></p>
+          <p><span class="output">[*] Open rate: 34% | Click rate: 12% | Credential submit: 8%</span></p>
+          <p><span class="warning">[!] 40 employees fell for the phishing simulation</span></p>
+          <p><span class="highlight">[+] Automated training modules assigned to at-risk users</span></p>
+          <p><span class="success">[+] Email gateway flagged 492/500 as suspicious</span></p>
+          <p><span class="success">[+] DMARC/SPF/DKIM validation: 98% pass rate</span></p>
+          <p><span class="success">[+] Security awareness score improved: 62% → 89%</span></p>
+          <p><span class="output">[*] Detailed report generated for HR review</span></p>
+          <div class="theme-badges">
+            <span class="theme-badge orange">Phishing</span>
+            <span class="theme-badge yellow">Awareness Training</span>
+            <span class="theme-badge green">Email Security</span>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<section id="labs" style="background-color:#0a0e17;">
+  <div class="container">
+    <div class="section-title">
+      <h2>Lab Categories</h2>
+      <p>Pick a track and get a sandbox environment in seconds. 20+ hacking simulation themes for your CodSoft project.</p>
+    </div>
+    <div class="labs-grid">
+      <div class="lab-card" style="background: #111827; border-color: #22303f;">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Web App Security</h3>
+        <p>Practice SQL injection, authentication bypass, XSS, CSRF, and other common web vulnerabilities in a safe app built for learning.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">12 Labs • Beginner Friendly</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Cloud Security</h3>
+        <p>Find misconfigured storage buckets, IAM issues, and permission flaws on real cloud sandboxes (AWS, Azure, GCP).</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">15 Labs • AWS / Azure / GCP</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Network Security</h3>
+        <p>Analyze traffic, understand firewalls, and detect anomalies using Wireshark, Nmap, and tcpdump in isolated networks.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">9 Labs • Wireshark / Nmap</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Blue Team Defense</h3>
+        <p>Read real logs, detect intrusions, write incident reports, and master SIEM tools like Splunk and Wazuh.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">6 Labs • SIEM Basics</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Penetration Testing</h3>
+        <p>Learn end-to-end pentesting: reconnaissance, scanning, exploitation, post-exploitation, and professional reporting.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">10 Labs • Kali Linux / Metasploit</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Malware Analysis</h3>
+        <p>Reverse engineer malware behavior, analyze suspicious files, and understand obfuscation in isolated sandboxes.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">8 Labs • Static & Dynamic Analysis</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Digital Forensics</h3>
+        <p>Recover deleted data, analyze disk images, trace digital evidence, and create forensic reports for cybercrime cases.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">7 Labs • Autopsy / FTK Imager</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Social Engineering</h3>
+        <p>Simulate phishing, pretexting, baiting, and quid pro quo attacks. Build human-factor awareness programs.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">5 Labs • Awareness Training</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">IoT & Embedded Security</h3>
+        <p>Exploit smart devices, analyze firmware, reverse engineer embedded systems, and hack hardware interfaces.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">6 Labs • Firmware / Hardware Hacking</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Wireless Security</h3>
+        <p>Crack WEP/WPA2/WPA3, analyze Bluetooth & Zigbee, and secure wireless networks using Aircrack-ng.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">5 Labs • Aircrack-ng / WiFi Pineapple</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">OSINT & Reconnaissance</h3>
+        <p>Master footprinting, target profiling, and intelligence gathering using Maltego, Shodan, and theHarvester.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">6 Labs • Maltego / Shodan</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Bug Bounty Hunting</h3>
+        <p>Find and responsibly disclose vulnerabilities. Learn HackerOne/Bugcrowd methodology and write PoC reports.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">8 Labs • HackerOne / Bugcrowd Style</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">AI & ML Security</h3>
+        <p>Explore adversarial AI, model poisoning, prompt injection, and secure AI deployment pipelines.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">5 Labs • Adversarial AI / LLM Security</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Ransomware Simulation</h3>
+        <p>Simulate ransomware attacks, understand encryption mechanisms, and develop detection & recovery strategies.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">4 Labs • Detection & Response</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Password Cracking</h3>
+        <p>Learn hash cracking, brute-force techniques, rainbow tables, and password policy hardening with Hashcat & John.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">5 Labs • Hashcat / John the Ripper</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Honeypot Deployment</h3>
+        <p>Set up Cowrie & Dionaea honeypots, analyze attacker behavior, and collect threat intelligence in real-time.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">4 Labs • Cowrie / ELK Stack</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Steganography</h3>
+        <p>Hide data in images, audio, and video files. Detect hidden payloads using steganalysis tools and techniques.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">4 Labs • Steghide / OpenStego</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Blockchain Security</h3>
+        <p>Audit smart contracts, detect reentrancy bugs, and secure DeFi applications on Ethereum testnets.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">5 Labs • Solidity / Remix IDE</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Mobile App Security</h3>
+        <p>Reverse engineer Android APKs, test iOS apps, and find mobile-specific vulnerabilities using Frida & MobSF.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">6 Labs • Frida / MobSF / Android Studio</div>
+      </div>
+      <div class="lab-card">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Zero Trust Architecture</h3>
+        <p>Implement zero trust principles, configure micro-segmentation, and validate continuous authentication flows.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">4 Labs • Identity & Access Management</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="tasks" style="background-color:#0d1117; padding: 60px 0;">
+  <div class="container">
+    <div class="section-title">
+      <h2>Hacking Simulation Tasks</h2>
+      <p>Complete hands-on tasks designed for your CodSoft project submission. Each task includes a real-world scenario.</p>
+    </div>
+    <div class="labs-grid">
+      <div class="lab-card" style="background: #111827; border-color: #22303f; border-left: 4px solid #ff3b3b;">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Task 1: Port Scanner</h3>
+        <p>Build a Python-based port scanner that detects open ports on a target IP. Include SYN stealth scan and service version detection.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">Python • Socket Programming • Nmap-style</div>
+      </div>
+      <div class="lab-card" style="background: #111827; border-color: #22303f; border-left: 4px solid #ff3b3b;">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Task 2: Keylogger</h3>
+        <p>Develop a keylogger that captures keystrokes and a detection script to identify its presence on the system.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">Python • Windows API • Detection</div>
+      </div>
+      <div class="lab-card" style="background: #111827; border-color: #22303f; border-left: 4px solid #ff3b3b;">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Task 3: Password Strength Checker</h3>
+        <p>Create a tool that evaluates password strength using entropy calculation, dictionary checks, and breach database lookup.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">Python • Regex • HaveIBeenPwned API</div>
+      </div>
+      <div class="lab-card" style="background: #111827; border-color: #22303f; border-left: 4px solid #ff3b3b;">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Task 4: Phishing Simulator</h3>
+        <p>Build a web-based phishing email simulator with realistic templates, click tracking, and user awareness metrics.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">HTML/CSS/JS • Flask • Analytics</div>
+      </div>
+      <div class="lab-card" style="background: #111827; border-color: #22303f; border-left: 4px solid #ff3b3b;">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Task 5: Network Packet Sniffer</h3>
+        <p>Create a packet sniffer using Scapy that captures, filters, and analyzes network traffic for suspicious patterns.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">Python • Scapy • Packet Analysis</div>
+      </div>
+      <div class="lab-card" style="background: #111827; border-color: #22303f; border-left: 4px solid #ff3b3b;">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Task 6: Caesar Cipher Tool</h3>
+        <p>Implement encryption/decryption with Caesar cipher, brute-force decryption, and frequency analysis attack.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">Python • Cryptography • Brute Force</div>
+      </div>
+      <div class="lab-card" style="background: #111827; border-color: #22303f; border-left: 4px solid #ff3b3b;">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Task 7: SQL Injection Tester</h3>
+        <p>Build a tool that detects SQL injection vulnerabilities in web forms using automated payload injection.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">Python • Requests • SQLmap-style</div>
+      </div>
+      <div class="lab-card" style="background: #111827; border-color: #22303f; border-left: 4px solid #ff3b3b;">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Task 8: Firewall Rule Configurator</h3>
+        <p>Develop a script that automates firewall rule setup, tests rule effectiveness, and generates security reports.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">Python • iptables • Automation</div>
+      </div>
+      <div class="lab-card" style="background: #111827; border-color: #22303f; border-left: 4px solid #ff3b3b;">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Task 9: DDoS Attack Simulator</h3>
+        <p>Simulate DDoS attacks (SYN flood, HTTP flood) to test network resilience and implement rate limiting defenses.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">Python • Scapy • Load Testing</div>
+      </div>
+      <div class="lab-card" style="background: #111827; border-color: #22303f; border-left: 4px solid #ff3b3b;">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Task 10: Vulnerability Scanner</h3>
+        <p>Create an automated web vulnerability scanner that detects XSS, CSRF, and insecure headers with report generation.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">Python • BeautifulSoup • OWASP</div>
+      </div>
+      <div class="lab-card" style="background: #111827; border-color: #22303f; border-left: 4px solid #ff3b3b;">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Task 11: Log Analyzer</h3>
+        <p>Build a tool that parses system logs, detects anomalies using pattern matching, and generates incident alerts.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">Python • Pandas • Regex</div>
+      </div>
+      <div class="lab-card" style="background: #111827; border-color: #22303f; border-left: 4px solid #ff3b3b;">
+        <h3 style="color: #00ff88; font-family: 'Courier New', monospace;">Task 12: Secure File Sharing</h3>
+        <p>Develop an encrypted file sharing system using AES-256 with secure key exchange and integrity verification.</p>
+        <div class="lab-meta" style="color: #58a6ff; font-family: 'Courier New', monospace;">Python • AES • Cryptography</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="pricing" style="background-color: #0d1117;">
+  <div class="container">
+    <div class="section-title">
+      <h2>Simple Pricing</h2>
+      <p>Start free. Upgrade anytime.</p>
+    </div>
+    <div class="pricing-grid">
+      <div class="price-card" style="background: #111827; border-color: #22303f;">
+        <h3 style="color: #c9d1d9; font-family: 'Courier New', monospace;">Student</h3>
+        <div class="price" style="color: #00ff88; font-family: 'Courier New', monospace;">₹0<span> / forever</span></div>
+        <ul>
+          <li>5 labs per month</li>
+          <li>Weekly community CTF</li>
+          <li>Public profile & badges</li>
+        </ul>
+        <a href="#" class="btn btn-outline" style="border-color:#1e3a8a;color:#1e3a8a;">Start Free</a>
+      </div>
+      <div class="price-card popular" style="background: #111827; border-color: #00ff88;">
+        <span class="popular-tag">MOST POPULAR</span>
+        <h3 style="color: #c9d1d9; font-family: 'Courier New', monospace;">Pro</h3>
+        <div class="price" style="color: #00ff88; font-family: 'Courier New', monospace;">₹299<span> / month</span></div>
+        <ul>
+          <li>Unlimited lab access</li>
+          <li>Full cloud security track</li>
+          <li>Certification prep (Security+, CEH)</li>
+          <li>Downloadable reports for portfolio</li>
+        </ul>
+        <a href="#" class="btn btn-primary">Go Pro</a>
+      </div>
+      <div class="price-card" style="background: #111827; border-color: #22303f;">
+        <h3 style="color: #c9d1d9; font-family: 'Courier New', monospace;">Campus</h3>
+        <div class="price" style="color: #00ff88; font-family: 'Courier New', monospace;">Custom</div>
+        <ul>
+          <li>Bulk student seats</li>
+          <li>Private leaderboard</li>
+          <li>Faculty dashboard</li>
+        </ul>
+        <a href="#" class="btn btn-outline" style="border-color:#1e3a8a;color:#1e3a8a;">Contact Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials" style="background-color:#0a0e17;">
+  <div class="container">
+    <div class="section-title">
+      <h2>What Students Say</h2>
+    </div>
+    <div class="testi-grid">
+      <div class="testi-card" style="background: #111827; border-color: #22303f;">
+        <p>"I finally understood privilege escalation by actually doing it, not just reading slides."</p>
+        <div class="testi-name" style="color: #00ff88; font-family: 'Courier New', monospace;">- 3rd Year, Computer Science</div>
+      </div>
+      <div class="testi-card" style="background: #111827; border-color: #22303f;">
+        <p>"The blue team labs changed how I read logs. Now I spot issues in minutes that used to take an hour."</p>
+        <div class="testi-name" style="color: #00ff88; font-family: 'Courier New', monospace;">- Final Year, Cloud Computing</div>
+      </div>
+      <div class="testi-card" style="background: #111827; border-color: #22303f;">
+        <p>"Weekly CTFs got my whole club competing every Friday. Great for practice."</p>
+        <div class="testi-name" style="color: #00ff88; font-family: 'Courier New', monospace;">- Cybersecurity Club Lead</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="cta-section" style="background-color: #0d1117; border-top: 1px solid #22303f; border-bottom: 1px solid #22303f;">
+  <div class="container">
+    <h2 style="color: #00ff88; font-family: 'Courier New', monospace;">Ready to Start Hacking?</h2>
+    <p style="color: #8b949e; font-family: 'Courier New', monospace;">Spin up your first lab in under a minute - completely free.</p>
+    <a href="#pricing" class="btn btn-hack" style="margin-top: 10px;">> Start_Free_Lab.exe</a>
+  </div>
+</section>
+
+<section class="dev-section">
+  <div class="container">
+    <div class="section-title">
+      <h2>About the Developer</h2>
+    </div>
+    <div class="dev-card">
+      <h3>Anshu</h3>
+      <p class="dev-role">BCA Student — Cloud Computing &amp; Cyber Security</p>
+      <p class="dev-college">Vivekananda Global University, Jaipur</p>
+      <div class="dev-links">
+        
+        <a href="#" target="_blank">LinkedIn</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer style="background-color: #0d1117; border-top: 1px solid #22303f;">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4 style="color: #00ff88; font-family: 'Courier New', monospace;">Perimeter</h4>
+        <p style="font-size:14px; color: #8b949e; font-family: 'Courier New', monospace;">Hands-on cybersecurity and cloud security labs for students.</p>
+      </div>
+      <div class="footer-col">
+        <h4 style="color: #00ff88; font-family: 'Courier New', monospace;">Platform</h4>
+        <a href="#steps" style="color: #8b949e; font-family: 'Courier New', monospace;">> How_it_Works</a>
+        <a href="#labs" style="color: #8b949e; font-family: 'Courier New', monospace;">> Labs</a>
+        <a href="#pricing" style="color: #8b949e; font-family: 'Courier New', monospace;">> Pricing</a>
+      </div>
+      <div class="footer-col">
+        <h4 style="color: #00ff88; font-family: 'Courier New', monospace;">Company</h4>
+        <a href="#" style="color: #8b949e; font-family: 'Courier New', monospace;">> About</a>
+        <a href="#" style="color: #8b949e; font-family: 'Courier New', monospace;">> Careers</a>
+        <a href="#" style="color: #8b949e; font-family: 'Courier New', monospace;">> Contact</a>
+      </div>
+      <div class="footer-col">
+        <h4 style="color: #00ff88; font-family: 'Courier New', monospace;">Legal</h4>
+        <a href="#" style="color: #8b949e; font-family: 'Courier New', monospace;">> Privacy_Policy</a>
+        <a href="#" style="color: #8b949e; font-family: 'Courier New', monospace;">> Terms_of_Service</a>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p style="color: #6e7681; font-family: 'Courier New', monospace;">&copy; 2026 Perimeter. Built for learning & CodSoft project submissions. Not for real intrusions.</p>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
