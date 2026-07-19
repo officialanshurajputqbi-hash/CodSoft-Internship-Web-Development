@@ -10,7 +10,7 @@ Add your GitHub Pages link here
 
 Example:
 
-https://officialanshurajputqbi-hash.github.io/CodSoft-Internship-Web-Development/Level1-Task-2/
+https://officialanshurajputqbi-hash.github.io/CodSoft-Internship-Web-Development/Level1-Task-2-Landing-Page/
 
 ---
 
