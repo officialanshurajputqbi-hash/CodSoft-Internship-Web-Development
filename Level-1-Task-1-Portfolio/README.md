@@ -19,7 +19,7 @@ A fully responsive personal portfolio website built **from scratch** using pure 
 
 ## 🔗 Live Portfolio
 
-👉 **[https://officialanshurajputqbi-hash.github.io/CodSoft-Internship-Web-Development/Level1-Task-1-Portfolio/](https://officialanshurajputqbi-hash.github.io/CodSoft-Internship-Web-Development/Level1-Task-1-Portfolio/)**
+👉 **[https://officialanshurajputqbi-hash.github.io/CodSoft-Internship-Web-Development/Level1-Task-1-Portfolio/](https://officialanshurajputqbi-hash.github.io/CodSoft-Internship-Web-Development/Level-1-Task-1-Portfolio/)**
 
 ---
 
